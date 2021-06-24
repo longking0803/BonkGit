@@ -1,0 +1,1860 @@
+fileFormatVersion: 2
+guid: a5f71f2cabeed0c4e99e64e70eff6fef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6318506786846254234
+    second: HW_Cus01_0
+  - first:
+      213: 8082254038337126289
+    second: HW_Cus01_1
+  - first:
+      213: -4013343132599761740
+    second: HW_Cus01_2
+  - first:
+      213: 3072143201358117891
+    second: HW_Cus01_3
+  - first:
+      213: -8013160326661433975
+    second: HW_Cus01_4
+  - first:
+      213: -9090305655702906360
+    second: HW_Cus01_5
+  - first:
+      213: 8194945741831210471
+    second: HW_Cus01_6
+  - first:
+      213: -8349122027065118616
+    second: HW_Cus01_7
+  - first:
+      213: -8583359759824862311
+    second: HW_Cus01_8
+  - first:
+      213: -8383316578026313590
+    second: HW_Cus01_9
+  - first:
+      213: -6662702854724702771
+    second: HW_Cus01_10
+  - first:
+      213: 8237366998696997963
+    second: HW_Cus01_11
+  - first:
+      213: -6666842103754105315
+    second: HW_Cus01_12
+  - first:
+      213: 8296122841443083264
+    second: HW_Cus01_13
+  - first:
+      213: -9106475078537278886
+    second: HW_Cus01_14
+  - first:
+      213: 4173571528265201940
+    second: HW_Cus01_15
+  - first:
+      213: 8491858956109349406
+    second: HW_Cus01_16
+  - first:
+      213: -8464829913121985687
+    second: HW_Cus01_17
+  - first:
+      213: -94734717482827360
+    second: HW_Cus01_18
+  - first:
+      213: 2767227212319276254
+    second: HW_Cus01_19
+  - first:
+      213: -4996718764540827395
+    second: HW_Cus01_20
+  - first:
+      213: -6346097992259142838
+    second: HW_Cus01_21
+  - first:
+      213: -4932242428401105365
+    second: HW_Cus01_22
+  - first:
+      213: -7299712363565236733
+    second: HW_Cus01_23
+  - first:
+      213: 3321249793354592189
+    second: HW_Cus01_24
+  - first:
+      213: -4290692821919003596
+    second: HW_Cus01_25
+  - first:
+      213: 6312729151825048120
+    second: HW_Cus01_26
+  - first:
+      213: 7866461668622208344
+    second: HW_Cus01_27
+  - first:
+      213: -7998163117250690114
+    second: HW_Cus01_28
+  - first:
+      213: -6286388910824381397
+    second: HW_Cus01_29
+  - first:
+      213: 3910794887264246825
+    second: HW_Cus01_30
+  - first:
+      213: -1039999778622957955
+    second: HW_Cus01_31
+  - first:
+      213: 4692575937973179867
+    second: HW_Cus01_32
+  - first:
+      213: 579843066348319763
+    second: HW_Cus01_33
+  - first:
+      213: -4532643203412462901
+    second: HW_Cus01_34
+  - first:
+      213: -1146281103484029074
+    second: HW_Cus01_35
+  - first:
+      213: -952339988199347350
+    second: HW_Cus01_36
+  - first:
+      213: 1014684747739069401
+    second: HW_Cus01_37
+  - first:
+      213: -6653371275849642328
+    second: HW_Cus01_38
+  - first:
+      213: 8772082432104893612
+    second: HW_Cus01_39
+  - first:
+      213: -5776718195725272601
+    second: HW_Cus01_40
+  - first:
+      213: -1333638696838056510
+    second: HW_Cus01_41
+  - first:
+      213: 7808530982318737666
+    second: HW_Cus01_42
+  - first:
+      213: 8464062831297530171
+    second: HW_Cus01_43
+  - first:
+      213: -1749278944928477632
+    second: HW_Cus01_44
+  - first:
+      213: 3972916750533659306
+    second: HW_Cus01_45
+  - first:
+      213: 3500539601604046786
+    second: HW_Cus01_46
+  - first:
+      213: 6185245393684347470
+    second: HW_Cus01_47
+  - first:
+      213: 4692333508379455532
+    second: HW_Cus01_48
+  - first:
+      213: 976397749663303372
+    second: HW_Cus01_49
+  - first:
+      213: -1217104278578322442
+    second: HW_Cus01_50
+  - first:
+      213: 1739238566924334087
+    second: HW_Cus01_51
+  - first:
+      213: -9186668746736945522
+    second: HW_Cus01_52
+  - first:
+      213: 7502160628566137264
+    second: HW_Cus01_53
+  - first:
+      213: 4889542401662621625
+    second: HW_Cus01_54
+  - first:
+      213: 5127667831982730499
+    second: HW_Cus01_55
+  - first:
+      213: -6616183069833842629
+    second: HW_Cus01_56
+  - first:
+      213: -1458895273289082694
+    second: HW_Cus01_57
+  - first:
+      213: -6554727189584528245
+    second: HW_Cus01_58
+  - first:
+      213: 1769136307554270207
+    second: HW_Cus01_59
+  - first:
+      213: -6736907675064907400
+    second: HW_Cus01_60
+  - first:
+      213: 70503508232745855
+    second: HW_Cus01_61
+  - first:
+      213: -3546951039241796704
+    second: HW_Cus01_62
+  - first:
+      213: -6163985402403663868
+    second: HW_Cus01_63
+  - first:
+      213: -4656395539064735798
+    second: HW_Cus01_64
+  - first:
+      213: 1619721291392738398
+    second: HW_Cus01_65
+  - first:
+      213: 3401071491478004668
+    second: HW_Cus01_66
+  - first:
+      213: 293052493122481056
+    second: HW_Cus01_67
+  - first:
+      213: -2894817264581266278
+    second: HW_Cus01_68
+  - first:
+      213: -7934618369650704700
+    second: HW_Cus01_69
+  - first:
+      213: -1932953563822483083
+    second: HW_Cus01_70
+  - first:
+      213: 8224522725637325736
+    second: HW_Cus01_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HW_Cus01_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 697
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b5223ed872058a0800000000000000
+      internalID: -6318506786846254234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 693
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ffc8be93fe92070800000000000000
+      internalID: 8082254038337126289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 696
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b443ab3fadbd48c0800000000000000
+      internalID: -4013343132599761740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 695
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cf418f6f172aa20800000000000000
+      internalID: 3072143201358117891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 693
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985971173298bc090800000000000000
+      internalID: -8013160326661433975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 694
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a9a1c2b2fb8d180800000000000000
+      internalID: -9090305655702906360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 696
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e50377cbbb4ab170800000000000000
+      internalID: 8194945741831210471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 695
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860f46e70c5f12c80800000000000000
+      internalID: -8349122027065118616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 693
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993c14866c7c1e880800000000000000
+      internalID: -8583359759824862311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 595
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88291f2df978ab80800000000000000
+      internalID: -8383316578026313590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 597
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd272cdd035983a0800000000000000
+      internalID: -6662702854724702771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 600
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b443cd154a1015270800000000000000
+      internalID: 8237366998696997963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 601
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e5e18dd6e9a73a0800000000000000
+      internalID: -6666842103754105315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 599
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004283105cfb12370800000000000000
+      internalID: 8296122841443083264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 599
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a86db0a2d4f9180800000000000000
+      internalID: -9106475078537278886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 599
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4197ee241318be930800000000000000
+      internalID: 4173571528265201940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_16
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 598
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e120e919ab429d570800000000000000
+      internalID: 8491858956109349406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 598
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b6348ea02e68a80800000000000000
+      internalID: -8464829913121985687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 500
+        width: 28
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a10a80c64f6faef0800000000000000
+      internalID: -94734717482827360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 501
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb51bfc7a276620800000000000000
+      internalID: 2767227212319276254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 501
+        width: 35
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8e305e1c618aab0800000000000000
+      internalID: -4996718764540827395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 501
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bf295cf712ee7a0800000000000000
+      internalID: -6346097992259142838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_22
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 501
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26ca0db4a72d8bb0800000000000000
+      internalID: -4932242428401105365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 501
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eba27e74632ba90800000000000000
+      internalID: -7299712363565236733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 501
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf6d3f1713771e20800000000000000
+      internalID: 3321249793354592189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_25
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 501
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c033d8c956474c0800000000000000
+      internalID: -4290692821919003596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_26
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 501
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832f8c1a7b15b9750800000000000000
+      internalID: 6312729151825048120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 401
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d047595394b2d60800000000000000
+      internalID: 7866461668622208344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 401
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb344ac5501d00190800000000000000
+      internalID: -7998163117250690114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 401
+        width: 27
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24ab52a79242c8a0800000000000000
+      internalID: -6286388910824381397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 401
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c9cccca3fe54630800000000000000
+      internalID: 3910794887264246825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 401
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7691b426bd2191f0800000000000000
+      internalID: -1039999778622957955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_32
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 401
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5df6804f06f1140800000000000000
+      internalID: 4692575937973179867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 401
+        width: 32
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3143a2b52340c0800800000000000000
+      internalID: 579843066348319763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 401
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2f20f7501d811c0800000000000000
+      internalID: -4532643203412462901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_35
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 401
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67771ed8679710f0800000000000000
+      internalID: -1146281103484029074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 303
+        width: 39
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b6af193db98c2f0800000000000000
+      internalID: -952339988199347350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 306
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db7efbe662e41e00800000000000000
+      internalID: 1014684747739069401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 306
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aec130631a7aa3a0800000000000000
+      internalID: -6653371275849642328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 306
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac8e0ade72bcb970800000000000000
+      internalID: 8772082432104893612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 306
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e972484869f4dfa0800000000000000
+      internalID: -5776718195725272601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_41
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 306
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5b040dba6fd7de0800000000000000
+      internalID: -1333638696838056510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 306
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2098dba9e897d5c60800000000000000
+      internalID: 7808530982318737666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_43
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 306
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b398310fc44667570800000000000000
+      internalID: 8464062831297530171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_44
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 306
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ec772511059b7e0800000000000000
+      internalID: -1749278944928477632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_45
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 205
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa02c53cb2a22730800000000000000
+      internalID: 3972916750533659306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 205
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfebc3983a649030800000000000000
+      internalID: 3500539601604046786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 205
+        width: 27
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a3d2b2ae766d550800000000000000
+      internalID: 6185245393684347470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_48
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 205
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20be9ef6748e1140800000000000000
+      internalID: 4692333508379455532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_49
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 205
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60c24849cdc8d00800000000000000
+      internalID: 976397749663303372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 205
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f32bbc6b1afb1fe0800000000000000
+      internalID: -1217104278578322442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_51
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 205
+        width: 32
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7043f210344032810800000000000000
+      internalID: 1739238566924334087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_52
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 205
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86bf89a275628080800000000000000
+      internalID: -9186668746736945522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_53
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 205
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91b91f7570d1860800000000000000
+      internalID: 7502160628566137264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_54
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 107
+        width: 28
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b79f4d88e42bd340800000000000000
+      internalID: 4889542401662621625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 108
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d2783c9b2292740800000000000000
+      internalID: 5127667831982730499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_56
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 108
+        width: 35
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30b9915d889e24a0800000000000000
+      internalID: -6616183069833842629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 108
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab89b1f7a76f0cbe0800000000000000
+      internalID: -1458895273289082694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 108
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c3839795ee805a0800000000000000
+      internalID: -6554727189584528245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_59
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 108
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbb403391c3d8810800000000000000
+      internalID: 1769136307554270207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_60
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 108
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8794727c922b182a0800000000000000
+      internalID: -6736907675064907400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_61
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 108
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73b1a3319a7af000800000000000000
+      internalID: 70503508232745855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_62
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 108
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a34a4682d2b6cec0800000000000000
+      internalID: -3546951039241796704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 7
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40059094fef157aa0800000000000000
+      internalID: -6163985402403663868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_64
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 9
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac735588de8216fb0800000000000000
+      internalID: -4656395539064735798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_65
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 12
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54e990dee76a7610800000000000000
+      internalID: 1619721291392738398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_66
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 13
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb321497088033f20800000000000000
+      internalID: 3401071491478004668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_67
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 11
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abab1990b1211400800000000000000
+      internalID: 293052493122481056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_68
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 11
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9437f6090b83d7d0800000000000000
+      internalID: -2894817264581266278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_69
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 11
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce3ea8d1a292e190800000000000000
+      internalID: -7934618369650704700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_70
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 10
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579190599f4cc25e0800000000000000
+      internalID: -1932953563822483083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HW_Cus01_71
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 10
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a38db4f7df532270800000000000000
+      internalID: 8224522725637325736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
