@@ -372,7 +372,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   moveSpeed: 10
-  jumpForce: 10
+  jumpForce: 50
   checkSize: {x: 1.01, y: 4.06}
 --- !u!1 &2140046242
 GameObject:
