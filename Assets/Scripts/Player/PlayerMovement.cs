@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D player;
     [SerializeField] CapsuleCollider2D playerCollider;
     [SerializeField] private LayerMask groundLayerMask;
+    [SerializeField] private LayerMask enemiesLayerMask;
     [SerializeField] private BoxCollider2D bonkerZone;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator playerAnim;
@@ -14,25 +15,31 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private float jumpSpeed;
     [SerializeField] private Vector2 checkSize;
+    [SerializeField] private float attackRadius;
 
     private float hInput;
     private bool doubleJumpReady;
     private bool frameGrounded;
+    
 
     private void Update()
     {
-        physicsCheck();
+        
         handleInput();
     }
 
     private void physicsCheck()
     {
-        frameGrounded = isGrounded();
+        frameGrounded = Physics2D.OverlapBox(transform.position, checkSize, 0f, groundLayerMask);
         if (frameGrounded)
         {
             playerAnim.SetBool("isJumpRoll", false);
             playerAnim.SetBool("isJump", false);
         }
+        //if (!playerAnim.GetCurrentAnimatorStateInfo(0).IsName("attack"))
+        //{
+        //    bonkerZone.enabled = false;
+        //}
     }
 
     private void handleInput()
@@ -49,18 +56,20 @@ public class PlayerMovement : MonoBehaviour
             player.velocity = new Vector2(hInput * moveSpeed, player.velocity.y);
             if (hInput > 0)
             {
-                spriteRenderer.flipX = false;
+                transform.rotation = Quaternion.identity;
             }
             else
             {
-                spriteRenderer.flipX = true;
+
+                transform.rotation = Quaternion.Euler(0, 180, 0);
             }
         }
 
         //atk
         if (Input.GetMouseButtonDown(0))
         {
-            bonkerZone.enabled = true;
+            playerAnim.SetTrigger("isAttack");
+            //attack();
             //Debug.Log("ok ok ");
         }
     }
@@ -76,7 +85,8 @@ public class PlayerMovement : MonoBehaviour
         else if (doubleJumpReady)
         {
             player.velocity = new Vector2(player.velocity.x, jumpSpeed);
-            playerAnim.SetBool("isJumpRoll", true);
+            playerAnim.SetTrigger("isJumpRoll 0");
+            //playerAnim.SetBool("isJumpRoll", true);
             doubleJumpReady = false;
         }
     }
@@ -88,29 +98,49 @@ public class PlayerMovement : MonoBehaviour
         return raycastHit.collider != null;
     }
 
+    public void AlertObservers(string message)
+    {
+        if (message.Equals("AttackAnimationEnded"))
+        {
+            bonkerZone.enabled = false;
+            // Do other things based on an attack ending.
+        }
+    }
 
+    private void attackEnded()
+    {
+        bonkerZone.enabled = false;
+    }
 
+    public void attack()
+    {
+        
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position+new Vector3(1f,0f,0f), attackRadius, enemiesLayerMask);
 
-
-
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<EnemyCotroller>().die();
+        }
+    }
 
     // Ctrl + K + C to comment in bulk, Ctrl + K + U to un comment
-    //void OnDrawGizmos()
-    //{
-    //    Gizmos.color = Color.red;
-    //    //Check that it is being run in Play Mode, so it doesn't try to draw this in Editor mode
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        //Check that it is being run in Play Mode, so it doesn't try to draw this in Editor mode
 
-    //    //Draw a cube where the OverlapBox is (positioned where your GameObject is as well as a size)
-    //    Gizmos.DrawWireCube(transform.position, checkSize);
-    //}
+        //Draw a cube where the OverlapBox is (positioned where your GameObject is as well as a size)
+        Gizmos.DrawWireCube(transform.position, checkSize);
+        Gizmos.DrawWireSphere(transform.position + new Vector3(1f, 0f, 0f), attackRadius);
+    }
 
-    //private void FixedUpdate()
-    //{
-    //    //isGrounded = Physics2D.OverlapBox(transform.position, checkSize, 0f, groundLayerMask);
-    //    //GroundMovement();
+    private void FixedUpdate()
+    {
+        //isGrounded = Physics2D.OverlapBox(transform.position, checkSize, 0f, groundLayerMask);
+        //GroundMovement();
+        physicsCheck();
 
-
-    //}
+    }
 
     //void GroundMovement()
     //{
