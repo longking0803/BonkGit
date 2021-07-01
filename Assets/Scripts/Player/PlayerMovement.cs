@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private float hInput;
     private bool doubleJumpReady;
     private bool frameGrounded;
-    
+    private Vector3 hitboxOffset;
 
     private void Update()
     {
@@ -56,11 +56,12 @@ public class PlayerMovement : MonoBehaviour
             player.velocity = new Vector2(hInput * moveSpeed, player.velocity.y);
             if (hInput > 0)
             {
+                hitboxOffset = new Vector3(1f, 0, 0);
                 transform.rotation = Quaternion.identity;
             }
             else
             {
-
+                hitboxOffset = new Vector3(-1f, 0, 0);
                 transform.rotation = Quaternion.Euler(0, 180, 0);
             }
         }
@@ -115,11 +116,11 @@ public class PlayerMovement : MonoBehaviour
     public void attack()
     {
         
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position+new Vector3(1f,0f,0f), attackRadius, enemiesLayerMask);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position + hitboxOffset , attackRadius, enemiesLayerMask);
 
         foreach(Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyCotroller>().die();
+            enemy.GetComponent<EnemyCotroller>().takeDmg();
         }
     }
 
@@ -130,8 +131,8 @@ public class PlayerMovement : MonoBehaviour
         //Check that it is being run in Play Mode, so it doesn't try to draw this in Editor mode
 
         //Draw a cube where the OverlapBox is (positioned where your GameObject is as well as a size)
-        Gizmos.DrawWireCube(transform.position, checkSize);
-        Gizmos.DrawWireSphere(transform.position + new Vector3(1f, 0f, 0f), attackRadius);
+        Gizmos.DrawWireCube(playerCollider.bounds.center, playerCollider.bounds.size);
+        Gizmos.DrawWireSphere(transform.position + hitboxOffset, attackRadius);
     }
 
     private void FixedUpdate()
