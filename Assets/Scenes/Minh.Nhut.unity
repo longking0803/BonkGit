@@ -953,7 +953,6 @@ GameObject:
   - component: {fileID: 1655171614}
   - component: {fileID: 1655171613}
   - component: {fileID: 1655171612}
-  - component: {fileID: 1655171619}
   - component: {fileID: 1655171620}
   m_Layer: 0
   m_Name: player
@@ -980,9 +979,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   bonkerZone: {fileID: 1655171620}
+  spriteRenderer: {fileID: 1655171617}
   playerAnim: {fileID: 1655171615}
   moveSpeed: 8
-  jumpForce: 60
+  jumpSpeed: 0
   checkSize: {x: 1.1, y: 2.12}
 --- !u!70 &1655171613
 CapsuleCollider2D:
@@ -1137,18 +1137,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1655171619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1655171611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 297e1a28a3e358f4db51e82ffe9c24c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1655171620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1348,9 +1336,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   bonkerZone: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   playerAnim: {fileID: 0}
   moveSpeed: 10
-  jumpForce: 50
+  jumpSpeed: 0
   checkSize: {x: 1.01, y: 4.06}
 --- !u!1 &2069308550
 GameObject:
