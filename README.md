@@ -81,3 +81,15 @@ Thwen script theo class viet hoa chu cai dau
 LongAnimation.anim
 CheemsBuff.png
 
+<b>Role</b>
+Game design/ Game artist: Lưu Hoàng Long - Lê Ngọc Minh<br>
+Game developer: Đỗ Minh Nhựt, Bùi Minh Đức Tài<br>
+Game balancing: all the member<br>
+Game publishing: not decided yet<br>
+The role maybe switch around.<br>
+
+<b>Information: </b>
+Lê Ngọc Minh - 0774654920 - lnminh18@apcs.vn<br>
+Đỗ Minh Nhựt - 0785155426 - dmnhut18@apcs.vn<br>
+Bùi Minh Đức Tài - 0376669030  - bmdtai18@apcs.vn<br>
+Lưu Hoàng Long - 0798148579 - longking0803@gmail.com - lhlong18@apcs.vn<br>
