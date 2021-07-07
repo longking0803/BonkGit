@@ -2006,7 +2006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165814738015420644, guid: 73509c533b16fe948b9d7da94f5b35fd, type: 3}
       propertyPath: regainControlSpeed
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5165814738015420644, guid: 73509c533b16fe948b9d7da94f5b35fd, type: 3}
       propertyPath: enemiesLayerMask.m_Bits
