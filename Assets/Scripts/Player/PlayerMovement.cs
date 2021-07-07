@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         //isGrounded = Physics2D.OverlapBox(transform.position, checkSize, 0f, groundLayerMask);
         //GroundMovement();
         physicsCheck();
-      //  move();
+        //move();
     }
 
     void move()
@@ -91,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //     readyToJump = true;
+            //readyToJump = true;
             jump();
         }
 
@@ -149,15 +149,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
         
-    void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        //Check that it is being run in Play Mode, so it doesn't try to draw this in Editor mode
+    //void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    //Check that it is being run in Play Mode, so it doesn't try to draw this in Editor mode
 
-        //Draw a cube where the OverlapBox is (positioned where your GameObject is as well as a size)
-        Gizmos.DrawWireCube(playerCollider.bounds.center, playerCollider.bounds.size);
-        Gizmos.DrawWireSphere(transform.position + hitboxOffset, attackRadius);
-    }
+    //    //Draw a cube where the OverlapBox is (positioned where your GameObject is as well as a size)
+    //    Gizmos.DrawWireCube(playerCollider.bounds.center, playerCollider.bounds.size);
+    //    Gizmos.DrawWireSphere(transform.position + hitboxOffset, attackRadius);
+    //}
 
     // Ctrl + K + C to comment in bulk, Ctrl + K + U to un comment
     //public void AlertObservers(string message)
