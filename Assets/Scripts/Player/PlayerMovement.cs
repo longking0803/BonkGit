@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private BoxCollider2D bonkerZone;
     //[SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator playerAnim;
+    [SerializeField] private SoundManager soundManager;
 
     [Header("Movement Config")]
     [SerializeField] private float moveSpeed;
@@ -145,6 +146,7 @@ public class PlayerMovement : MonoBehaviour
 
         foreach(Collider2D enemy in hitEnemies)
         {
+            soundManager.PlaySound("playerAttackHitSound");
             enemy.GetComponent<EnemyCotroller>().hit();
         }
     }
