@@ -1,0 +1,237 @@
+2021-07-09 14:57:27.0301 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 14:57:27.0371 [INFO] Setting define symbol SCENE_FUSION
+2021-07-09 14:57:39.8011 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 14:59:44.8171 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfLoginMenu.Login () (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksBaseLoginMenu`1[T].Draw (KS.Unity.Editor.ksWindow window) (at <0129047e427a4727a5c7a229ba6f3934>:0)
+KS.SceneFusion.sfLoginMenu.KS.Unity.Editor.ksIMenu.Draw (KS.Unity.Editor.ksWindow window) (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksWindow.OnGUI () (at <0129047e427a4727a5c7a229ba6f3934>:0)
+UnityEditor.HostView.InvokeOnGUI (UnityEngine.Rect onGUIPosition, UnityEngine.Rect viewRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.DrawView (UnityEngine.Rect viewRect, UnityEngine.Rect dockAreaRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.OldOnGUI () (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEngine.UIElements.IMGUIContainer.DoOnGUI (UnityEngine.Event evt, UnityEngine.Matrix4x4 parentTransform, UnityEngine.Rect clippingRect, System.Boolean isComputingLayout, UnityEngine.Rect layoutSize, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, UnityEngine.Matrix4x4 worldTransform, UnityEngine.Rect clippingRect, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUI (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleEvent (UnityEngine.UIElements.EventBase evt) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.CallbackEventHandler.HandleEventAtTargetPhase (UnityEngine.UIElements.EventBase evt) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.MouseCaptureDispatchingStrategy.DispatchEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ApplyDispatchingStrategies (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, System.Boolean imguiEventIsInitiallyUsed) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEventQueue () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.OpenGate () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcherGate.Dispose () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& eventHandled) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration+<>c.<.cctor>b__1_2 (System.Int32 i, System.IntPtr ptr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.GUIUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& result) (at <6ddf8eac3856492ab1b8cf42618915cc>:0)
+
+2021-07-09 14:59:59.0790 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfLoginMenu.Login () (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksBaseLoginMenu`1[T].Draw (KS.Unity.Editor.ksWindow window) (at <0129047e427a4727a5c7a229ba6f3934>:0)
+KS.SceneFusion.sfLoginMenu.KS.Unity.Editor.ksIMenu.Draw (KS.Unity.Editor.ksWindow window) (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksWindow.OnGUI () (at <0129047e427a4727a5c7a229ba6f3934>:0)
+UnityEditor.HostView.InvokeOnGUI (UnityEngine.Rect onGUIPosition, UnityEngine.Rect viewRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.DrawView (UnityEngine.Rect viewRect, UnityEngine.Rect dockAreaRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.OldOnGUI () (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEngine.UIElements.IMGUIContainer.DoOnGUI (UnityEngine.Event evt, UnityEngine.Matrix4x4 parentTransform, UnityEngine.Rect clippingRect, System.Boolean isComputingLayout, UnityEngine.Rect layoutSize, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, UnityEngine.Matrix4x4 worldTransform, UnityEngine.Rect clippingRect, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUI (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleEvent (UnityEngine.UIElements.EventBase evt) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.CallbackEventHandler.HandleEventAtTargetPhase (UnityEngine.UIElements.EventBase evt) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.MouseCaptureDispatchingStrategy.DispatchEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ApplyDispatchingStrategies (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, System.Boolean imguiEventIsInitiallyUsed) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEventQueue () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.OpenGate () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcherGate.Dispose () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& eventHandled) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration+<>c.<.cctor>b__1_2 (System.Int32 i, System.IntPtr ptr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.GUIUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& result) (at <6ddf8eac3856492ab1b8cf42618915cc>:0)
+
+2021-07-09 15:00:46.9107 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfLoginMenu.Login () (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksBaseLoginMenu`1[T].Draw (KS.Unity.Editor.ksWindow window) (at <0129047e427a4727a5c7a229ba6f3934>:0)
+KS.SceneFusion.sfLoginMenu.KS.Unity.Editor.ksIMenu.Draw (KS.Unity.Editor.ksWindow window) (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksWindow.OnGUI () (at <0129047e427a4727a5c7a229ba6f3934>:0)
+UnityEditor.HostView.InvokeOnGUI (UnityEngine.Rect onGUIPosition, UnityEngine.Rect viewRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.DrawView (UnityEngine.Rect viewRect, UnityEngine.Rect dockAreaRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.OldOnGUI () (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEngine.UIElements.IMGUIContainer.DoOnGUI (UnityEngine.Event evt, UnityEngine.Matrix4x4 parentTransform, UnityEngine.Rect clippingRect, System.Boolean isComputingLayout, UnityEngine.Rect layoutSize, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, UnityEngine.Matrix4x4 worldTransform, UnityEngine.Rect clippingRect, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUI (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.KeyboardEventDispatchingStrategy.DispatchEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ApplyDispatchingStrategies (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, System.Boolean imguiEventIsInitiallyUsed) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& eventHandled) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration+<>c.<.cctor>b__1_2 (System.Int32 i, System.IntPtr ptr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.GUIUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& result) (at <6ddf8eac3856492ab1b8cf42618915cc>:0)
+
+2021-07-09 15:00:47.9254 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.sfLoginMenu.Login () (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksBaseLoginMenu`1[T].Draw (KS.Unity.Editor.ksWindow window) (at <0129047e427a4727a5c7a229ba6f3934>:0)
+KS.SceneFusion.sfLoginMenu.KS.Unity.Editor.ksIMenu.Draw (KS.Unity.Editor.ksWindow window) (at <bcecd73eb38342a8bf6616352856bf6c>:0)
+KS.Unity.Editor.ksWindow.OnGUI () (at <0129047e427a4727a5c7a229ba6f3934>:0)
+UnityEditor.HostView.InvokeOnGUI (UnityEngine.Rect onGUIPosition, UnityEngine.Rect viewRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.DrawView (UnityEngine.Rect viewRect, UnityEngine.Rect dockAreaRect) (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEditor.DockArea.OldOnGUI () (at <dc14d30a5e0540ee9311ed6df63d9074>:0)
+UnityEngine.UIElements.IMGUIContainer.DoOnGUI (UnityEngine.Event evt, UnityEngine.Matrix4x4 parentTransform, UnityEngine.Rect clippingRect, System.Boolean isComputingLayout, UnityEngine.Rect layoutSize, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, UnityEngine.Matrix4x4 worldTransform, UnityEngine.Rect clippingRect, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Action onGUIHandler, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, System.Boolean canAffectFocus) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.SendEventToIMGUI (UnityEngine.UIElements.EventBase evt, System.Boolean canAffectFocus, System.Boolean verifyBounds) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.IMGUIContainer.HandleEvent (UnityEngine.UIElements.EventBase evt) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.CallbackEventHandler.HandleEventAtTargetPhase (UnityEngine.UIElements.EventBase evt) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.MouseCaptureDispatchingStrategy.DispatchEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ApplyDispatchingStrategies (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, System.Boolean imguiEventIsInitiallyUsed) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEventQueue () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.OpenGate () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcherGate.Dispose () (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel panel) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIElementsUtility.UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& eventHandled) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.UIElements.UIEventRegistration+<>c.<.cctor>b__1_2 (System.Int32 i, System.IntPtr ptr) (at <001bec72e88e4f3a9eb0246a4215b1a5>:0)
+UnityEngine.GUIUtility.ProcessEvent (System.Int32 instanceID, System.IntPtr nativeEventPtr, System.Boolean& result) (at <6ddf8eac3856492ab1b8cf42618915cc>:0)
+
+2021-07-09 15:07:56.5979 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:07:56.7136 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:08:09.3883 [DEBUG] Play mode: False
+2021-07-09 15:09:27.4536 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:09:27.5903 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:10:03.0562 [DEBUG] Play mode: False
+2021-07-09 15:11:31.7979 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:11:34.0037 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+
+2021-07-09 15:11:36.9475 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:11:37.0763 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:12:59.7575 [DEBUG] Play mode: False
+2021-07-09 15:13:03.3471 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:13:03.4928 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:13:23.9814 [DEBUG] Play mode: False
+2021-07-09 15:14:29.5868 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:14:31.1339 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+
+2021-07-09 15:14:33.9574 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:14:34.1135 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:14:34.5117 [DEBUG] Play mode: False
+2021-07-09 15:14:38.7400 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:14:38.8718 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:15:13.4314 [DEBUG] Play mode: False
+2021-07-09 15:44:20.5462 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:44:20.6736 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:44:21.1154 [DEBUG] Play mode: False
+2021-07-09 15:44:30.3060 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:44:30.4163 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:44:31.3059 [DEBUG] Play mode: False
+2021-07-09 15:46:31.3147 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:46:31.4423 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:46:53.9075 [DEBUG] Play mode: False
+2021-07-09 15:47:09.8704 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:47:09.9841 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:47:29.4992 [DEBUG] Play mode: False
+2021-07-09 15:47:47.5808 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:47:47.7054 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:47:56.7282 [DEBUG] Play mode: False
+2021-07-09 15:48:01.0581 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:48:01.1809 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:48:45.1743 [DEBUG] Play mode: False
+2021-07-09 15:49:28.2383 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:49:28.4162 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:49:30.2298 [DEBUG] Play mode: False
+2021-07-09 15:49:33.9634 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:49:34.1110 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:49:36.9872 [DEBUG] Play mode: False
+2021-07-09 15:50:27.1872 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:50:27.3018 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:50:29.1570 [DEBUG] Play mode: False
+2021-07-09 15:51:37.9237 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:51:38.0393 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:51:43.9574 [DEBUG] Play mode: False
+2021-07-09 15:52:50.6193 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:52:50.7554 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:55:20.9944 [DEBUG] Play mode: False
+2021-07-09 15:57:10.4236 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:57:10.5404 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:57:32.4966 [DEBUG] Play mode: False
+2021-07-09 15:58:20.6257 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:58:20.7454 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:58:35.5670 [DEBUG] Play mode: False
+2021-07-09 15:58:41.3895 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:58:41.5114 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 15:59:52.7717 [DEBUG] Play mode: False
+2021-07-09 15:59:59.6079 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 15:59:59.7181 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:00:08.2385 [DEBUG] Play mode: False
+2021-07-09 16:00:14.4408 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:00:14.5665 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:00:24.9210 [DEBUG] Play mode: False
+2021-07-09 16:01:20.0148 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:01:20.1210 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:01:34.3057 [DEBUG] Play mode: False
+2021-07-09 16:01:53.0905 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:01:53.1978 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:02:38.0986 [DEBUG] Play mode: False
+2021-07-09 16:03:22.1852 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:03:22.2915 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:03:26.0380 [DEBUG] Play mode: False
+2021-07-09 16:03:49.5257 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:03:49.6380 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:04:21.8225 [DEBUG] Play mode: False
+2021-07-09 16:04:26.1653 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:04:26.2937 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:04:31.4798 [DEBUG] Play mode: False
+2021-07-09 16:04:51.7119 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:04:51.8300 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:04:59.9364 [DEBUG] Play mode: False
+2021-07-09 16:05:08.1813 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:05:08.2960 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:05:14.5830 [DEBUG] Play mode: False
+2021-07-09 16:05:26.9130 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:05:27.0257 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:05:44.6103 [DEBUG] Play mode: False
+2021-07-09 16:05:55.7270 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:05:55.8377 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:06:08.6141 [DEBUG] Play mode: False
+2021-07-09 16:07:27.4276 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:07:27.5424 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:08:22.6786 [DEBUG] Play mode: False
+2021-07-09 16:08:27.2139 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:08:27.3316 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:08:34.4723 [DEBUG] Play mode: False
+2021-07-09 16:11:10.6926 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:11:10.8133 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:11:17.7072 [DEBUG] Play mode: False
+2021-07-09 16:11:31.6177 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:11:31.7279 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:11:53.3194 [DEBUG] Play mode: False
+2021-07-09 16:35:38.1888 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-09 16:35:38.2978 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-09 16:35:46.3493 [DEBUG] Play mode: False
