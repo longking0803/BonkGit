@@ -301,6 +301,7 @@ MonoBehaviour:
   audioSource: {fileID: 238795622}
   playerAttackHitSound: {fileID: 8300000, guid: b268ba989001ef54bbc5db4edb5a3f49, type: 3}
   mainThemeSound: {fileID: 8300000, guid: cbfe60ec3990e084d8e0ed247166ce00, type: 3}
+  playerTouchEnemySound: {fileID: 8300000, guid: a85d031f86d67394abfb521ebe630a09, type: 3}
 --- !u!82 &238795622
 AudioSource:
   m_ObjectHideFlags: 0
@@ -411,30 +412,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &799601665 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715030, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 2099999232}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &799601666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799601665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a0dece771f9074ba45e581cf5f3bfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAnim: {fileID: 799601669}
-  health: 0
---- !u!95 &799601669 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 2099999232}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &815607103
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.060719013
+      value: -0.060718536
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.x
@@ -982,7 +959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 3.1287265
+      value: 3.128726
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Enabled
@@ -1308,30 +1285,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1670549328 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715030, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 1139959928}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1670549329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670549328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a0dece771f9074ba45e581cf5f3bfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAnim: {fileID: 1670549332}
-  health: 0
---- !u!95 &1670549332 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 1139959928}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1791937454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1389,19 +1342,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: -0.054937124
+      value: -0.054934382
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.060719013
+      value: -0.06071949
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 1.9462087
+      value: 1.9462079
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 3.1287265
+      value: 3.128727
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Enabled
@@ -1473,54 +1426,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
---- !u!1 &1801006955 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715030, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 1791937454}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1801006956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801006955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a0dece771f9074ba45e581cf5f3bfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAnim: {fileID: 1801006959}
-  health: 0
---- !u!95 &1801006959 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 1791937454}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1873728425 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715030, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 6443853794789791367}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1873728426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1873728425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a0dece771f9074ba45e581cf5f3bfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAnim: {fileID: 1873728429}
-  health: 0
---- !u!95 &1873728429 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
-  m_PrefabInstance: {fileID: 6443853794789791367}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2042567123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,19 +1634,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: -0.054937124
+      value: -0.054935813
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.060719013
+      value: -0.06071663
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 1.9462087
+      value: 1.9462093
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 3.1287265
+      value: 3.128726
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Enabled
@@ -2227,7 +2132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.060719013
+      value: -0.060717583
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.x
@@ -2235,7 +2140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715027, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 3.1287265
+      value: 3.128727
       objectReference: {fileID: 0}
     - target: {fileID: 6443853794565715028, guid: 43758d9c5370a3b46b12f5966b9b7387, type: 3}
       propertyPath: m_Enabled

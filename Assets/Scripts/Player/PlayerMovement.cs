@@ -29,10 +29,11 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemies")){
+            soundManager.PlaySound("playerTouchEnemySound");
             Vector2 dir = new Vector2(collision.GetContact(0).point.x - transform.position.x, collision.GetContact(0).point.y - transform.position.y);
             dir = -dir.normalized;
             dir.y = 0;
-            player.velocity=dir*pushBackSpeed;
+            player.velocity=dir*pushBackSpeed;            
         }
     }
 

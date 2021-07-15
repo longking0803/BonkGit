@@ -3,7 +3,7 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip playerAttackHitSound,mainThemeSound,menuOptionHoverSound,menuOptionSelectSound;
+    [SerializeField] private AudioClip playerAttackHitSound,mainThemeSound, playerTouchEnemySound;
     
     private void Start()
     {
@@ -16,11 +16,8 @@ public class SoundManager : MonoBehaviour
             case "playerAttackHitSound":
                 audioSource.PlayOneShot(playerAttackHitSound);
                 break;
-            case "menuOptionHoverSound":
-                audioSource.PlayOneShot(menuOptionHoverSound);
-                break;
-            case "menuOptionSelectSound":
-                audioSource.PlayOneShot(menuOptionSelectSound);
+            case "playerTouchEnemySound":
+                audioSource.PlayOneShot(playerTouchEnemySound);
                 break;
             default:
                 break;
