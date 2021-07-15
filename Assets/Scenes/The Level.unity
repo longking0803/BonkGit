@@ -4317,9 +4317,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1253167506}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Enemies
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
