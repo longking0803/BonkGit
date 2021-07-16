@@ -567,9 +567,10 @@ MonoBehaviour:
     m_Bits: 64
   enemiesLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   bonkerZone: {fileID: 5165814738015420636}
   playerAnim: {fileID: 5165814738015420647}
+  soundManager: {fileID: 6656878384106115696, guid: 3e99c89934e6a234bb85a20ed370c73e, type: 3}
   moveSpeed: 8
   jumpSpeed: 60
   pushBackSpeed: 0
