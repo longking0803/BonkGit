@@ -1,406 +1,167 @@
-2021-07-17 09:15:03.0615 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:18:43.0800 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:18:53.1650 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:19:48.3486 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:19:48.3906 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 09:19:48.5175 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:225)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:22)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+2021-07-17 08:34:31.6613 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 08:34:31.7972 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 08:35:15.5200 [DEBUG] Play mode: False
+2021-07-17 08:37:16.0109 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 08:37:16.1070 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 08:37:50.5005 [DEBUG] Play mode: False
+2021-07-17 08:38:29.9289 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 08:38:30.0258 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 08:40:35.9820 [DEBUG] Play mode: False
+2021-07-17 08:41:32.5987 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 08:41:32.7105 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 08:41:35.3503 [DEBUG] Play mode: False
+2021-07-17 08:52:56.3104 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 08:52:56.4254 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 08:53:04.5826 [DEBUG] Play mode: False
+2021-07-17 08:57:25.1495 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 08:57:25.2551 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 08:57:42.8618 [DEBUG] Play mode: False
+2021-07-17 08:59:24.8902 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 08:59:25.0039 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 08:59:32.5682 [DEBUG] Play mode: False
+2021-07-17 09:01:42.4586 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:01:42.5658 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:01:47.0800 [DEBUG] Play mode: False
+2021-07-17 09:15:23.8052 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:15:23.9130 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:16:08.5177 [DEBUG] Play mode: False
+2021-07-17 09:16:52.3028 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:16:52.4226 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:17:57.4143 [DEBUG] Play mode: False
+2021-07-17 09:22:05.1899 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:22:05.3306 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:22:10.1914 [DEBUG] Play mode: False
+2021-07-17 09:22:23.9838 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:22:24.1108 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:22:28.2436 [DEBUG] Play mode: False
+2021-07-17 09:24:02.6422 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:24:02.7544 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:24:05.5295 [DEBUG] Play mode: False
+2021-07-17 09:24:46.8807 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:24:47.0167 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:25:06.5425 [DEBUG] Play mode: False
+2021-07-17 09:27:02.0190 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:27:02.1463 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:27:20.7433 [DEBUG] Play mode: False
+2021-07-17 09:30:00.0421 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:30:00.1639 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:30:18.0735 [DEBUG] Play mode: False
+2021-07-17 09:37:25.4963 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:37:25.6080 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:37:50.4756 [DEBUG] Play mode: False
+2021-07-17 09:39:56.8409 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:39:56.9613 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:40:22.7972 [DEBUG] Play mode: False
+2021-07-17 09:44:13.5448 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:44:13.6702 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:45:42.8521 [DEBUG] Play mode: False
+2021-07-17 09:54:23.7643 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 09:54:23.9106 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 09:55:17.6493 [DEBUG] Play mode: False
+2021-07-17 10:02:28.6067 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 10:02:28.7228 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 10:03:41.3001 [DEBUG] Play mode: False
+2021-07-17 10:12:38.7449 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 10:12:38.8765 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 10:13:34.7591 [DEBUG] Play mode: False
+2021-07-17 10:14:49.2466 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 10:14:49.3793 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 10:19:48.9593 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 10:22:09.7653 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 10:22:09.8781 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 10:22:33.3729 [DEBUG] Play mode: False
+2021-07-17 10:28:06.5626 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 10:28:06.6771 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 10:28:16.7230 [DEBUG] Play mode: False
+2021-07-17 11:16:54.6177 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 11:16:54.7812 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 11:18:09.8588 [DEBUG] Play mode: False
+2021-07-17 11:18:54.1338 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 11:18:54.2551 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 11:19:08.5049 [DEBUG] Play mode: False
+2021-07-17 11:19:49.9678 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 11:19:50.0915 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 11:19:54.3688 [DEBUG] Play mode: False
+2021-07-17 11:20:17.0628 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 11:20:17.1825 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 11:20:47.9430 [DEBUG] Play mode: False
+2021-07-17 11:21:04.5428 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 11:21:04.6621 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 11:21:19.0368 [DEBUG] Play mode: False
+2021-07-17 11:25:44.0771 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 11:25:44.2309 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 11:26:57.2624 [DEBUG] Play mode: False
+2021-07-17 13:02:41.0351 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 13:02:41.1603 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 13:04:24.2181 [DEBUG] Play mode: False
+2021-07-17 13:07:12.6222 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 13:07:12.7319 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 13:09:05.4298 [DEBUG] Play mode: False
+2021-07-17 13:19:49.0935 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 13:19:49.2110 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 13:21:27.2503 [DEBUG] Play mode: False
+2021-07-17 13:49:34.2650 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 13:49:34.3945 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 13:51:04.5725 [DEBUG] Play mode: False
+2021-07-17 13:51:12.0911 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 13:51:12.2113 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 13:52:46.2142 [DEBUG] Play mode: False
+2021-07-17 14:08:04.1347 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:08:04.2779 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:08:11.1189 [DEBUG] Play mode: False
+2021-07-17 14:20:04.1875 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:20:04.3147 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:20:05.7322 [DEBUG] Play mode: False
+2021-07-17 14:20:32.0336 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:20:32.1592 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:20:42.5315 [DEBUG] Play mode: False
+2021-07-17 14:22:50.2695 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:22:50.4188 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:22:51.6643 [DEBUG] Play mode: False
+2021-07-17 14:25:30.2442 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:25:30.3635 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:25:59.6385 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+UnityEditor.GenericMenu:CatchMenu(Object, String[], Int32)
 
-2021-07-17 09:19:48.5683 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:225)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:22)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+2021-07-17 14:26:28.4035 [DEBUG] Play mode: False
+2021-07-17 14:26:33.5549 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:26:33.7443 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:28:11.2555 [DEBUG] Play mode: False
+2021-07-17 14:30:26.0352 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:30:26.1688 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:30:27.6374 [DEBUG] Play mode: False
+2021-07-17 14:30:32.5876 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:30:32.7328 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:30:36.6057 [DEBUG] Play mode: False
+2021-07-17 14:34:09.6349 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:34:09.7767 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:34:18.7937 [DEBUG] Play mode: False
+2021-07-17 14:38:18.7723 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:38:18.9094 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:38:42.8148 [DEBUG] Play mode: False
+2021-07-17 14:39:30.5011 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:39:30.6443 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:39:36.0965 [DEBUG] Play mode: False
+2021-07-17 14:54:48.9994 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:54:49.1230 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:54:57.2774 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+UnityEditor.GenericMenu:CatchMenu(Object, String[], Int32)
 
-2021-07-17 09:19:49.0478 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:257)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:36)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:50.8544 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:257)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:36)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:51.8349 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:257)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:36)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:52.0654 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:257)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:36)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:52.2451 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:257)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:36)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:52.4042 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:257)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:36)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:53.4814 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:225)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:22)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:53.8662 [ERROR] ArgumentException: method arguments are incompatible
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-System.Delegate.CreateDelegate (System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method) (at <695d1cc93cca45069c528c15c9fdd749>:0)
-UnityEngine.Events.InvokableCall..ctor (System.Object target, System.Reflection.MethodInfo theFunction) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCall.GetRuntimeCall (UnityEngine.Events.UnityEventBase theEvent) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.PersistentCallGroup.Initialize (UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.RebuildPersistentCallsIfNeeded () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEventBase.PrepareInvoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.EventSystems.EventTrigger.Execute (UnityEngine.EventSystems.EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:216)
-UnityEngine.EventSystems.EventTrigger.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs:257)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:36)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:19:56.7363 [DEBUG] Play mode: False
-2021-07-17 09:21:19.2783 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:21:19.3593 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 09:54:28.8359 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:54:39.8222 [DEBUG] Play mode: False
-2021-07-17 09:54:45.1191 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:54:45.2021 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 09:54:54.9052 [DEBUG] Play mode: False
-2021-07-17 09:55:05.7333 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:55:08.3613 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:55:08.4013 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 09:55:29.8945 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:55:33.7099 [DEBUG] Play mode: False
-2021-07-17 09:55:36.2167 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 09:55:36.2626 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 09:55:41.3261 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:18)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 09:56:25.9638 [DEBUG] Play mode: False
-2021-07-17 10:12:44.0419 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:18:35.3173 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:19:58.4003 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:19:58.4462 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 10:20:02.0751 [DEBUG] Play mode: False
-2021-07-17 10:20:25.7822 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:20:25.8564 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 10:20:46.9306 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:20)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:20:48.0224 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:20)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:20:48.5107 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:20)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:20:48.6562 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:20)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:21:45.4384 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:21:47.7871 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:21)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:22:29.3916 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:22:32.2968 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:22)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:22:55.1064 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:22:55.8076 [DEBUG] Play mode: False
-2021-07-17 10:22:59.7402 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:22:59.7841 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 10:24:30.1621 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:24:46.9335 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:24:47.5205 [DEBUG] Play mode: False
-2021-07-17 10:24:53.1826 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:24:53.2597 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 10:25:01.0175 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:22)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:25:16.9863 [DEBUG] Play mode: False
-2021-07-17 10:37:19.0273 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:37:19.0703 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 10:37:22.3906 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:22)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:38:00.3769 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:38:49.2597 [DEBUG] Play mode: False
-2021-07-17 10:39:03.6123 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:39:06.2626 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 10:39:06.3056 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 10:39:09.4443 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:23)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 10:39:32.2050 [DEBUG] Play mode: False
-2021-07-17 10:57:51.3291 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:01:15.3496 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:08:36.8554 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:08:47.4589 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:08:47.5029 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:08:48.0976 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.ContinueGame () (at Assets/Scripts/DataManager.cs:17)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 11:09:00.6435 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.ContinueGame () (at Assets/Scripts/DataManager.cs:17)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 11:09:10.6484 [DEBUG] Play mode: False
-2021-07-17 11:09:32.4482 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:09:32.4951 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:09:33.2373 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.ContinueGame () (at Assets/Scripts/DataManager.cs:17)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 11:09:55.6738 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.ContinueGame () (at Assets/Scripts/DataManager.cs:17)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 11:09:58.5849 [DEBUG] Play mode: False
-2021-07-17 11:11:37.6533 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:11:41.9951 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:11:42.0410 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:11:47.1181 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.PlacePlayerAfterLoad () (at Assets/Scripts/DataManager.cs:15)
-DataManager.ContinueGame () (at Assets/Scripts/DataManager.cs:22)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 11:11:50.7958 [DEBUG] Play mode: False
-2021-07-17 11:13:06.4306 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:13:06.4921 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:13:08.1396 [DEBUG] Play mode: False
-2021-07-17 11:13:12.3828 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:13:12.4433 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:13:16.4843 [ERROR] NullReferenceException: Object reference not set to an instance of an object
-DataManager.SaveGame () (at Assets/Scripts/DataManager.cs:27)
-UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
-UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
-UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
-UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
-
-2021-07-17 11:13:18.4990 [DEBUG] Play mode: False
-2021-07-17 11:14:25.8173 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:14:29.5634 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:14:29.6201 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:21:48.6308 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:21:50.2246 [DEBUG] Play mode: False
-2021-07-17 11:21:54.6884 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:21:54.7246 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:22:48.3925 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:22:48.9238 [DEBUG] Play mode: False
-2021-07-17 11:22:51.4003 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:22:51.4423 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:22:57.7988 [DEBUG] Play mode: False
-2021-07-17 11:23:06.7978 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:23:06.8779 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:24:42.4218 [DEBUG] Play mode: False
-2021-07-17 11:24:45.4794 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:24:45.5195 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:25:04.9833 [DEBUG] Play mode: False
-2021-07-17 11:34:05.0742 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:34:05.1113 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:34:25.8046 [DEBUG] Play mode: False
-2021-07-17 11:34:28.2568 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:34:28.2929 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:37:32.1943 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:37:33.6884 [DEBUG] Play mode: False
-2021-07-17 11:37:40.7919 [DEBUG] Scene Fusion version 1.9.2-2
-2021-07-17 11:37:40.8320 [DEBUG] Play mode: True, sync in play mode: False
-2021-07-17 11:37:53.4414 [DEBUG] Play mode: False
+2021-07-17 14:55:04.7769 [DEBUG] Play mode: False
+2021-07-17 14:55:09.3310 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:55:09.3688 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:55:16.0530 [DEBUG] Play mode: False
+2021-07-17 14:55:31.0421 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:55:31.0870 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:55:52.1472 [DEBUG] Play mode: False
+2021-07-17 14:56:26.2954 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:56:26.3363 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:57:07.6267 [DEBUG] Play mode: False
+2021-07-17 14:57:43.6638 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:57:43.7017 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:00:10.3644 [DEBUG] Play mode: False
+2021-07-17 15:08:40.2029 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:08:40.2467 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:10:44.3362 [DEBUG] Play mode: False
