@@ -12,8 +12,19 @@ public class DataManager : MonoBehaviour
     public void NextLevel()
     {
         Load();
-        data.currentLevel = "The Level 2";
-        Save();
+        switch (data.currentLevel)
+        {
+            case "The Level":
+                data.currentLevel = "The Level 2";
+                Save();
+                break;
+            case "The Level 2":
+                data.currentLevel = "TheBonkMenu";
+                Save();
+                break;
+            case "null":
+                break;
+        }
         SceneManager.LoadScene(data.currentLevel);
     }
 
@@ -21,7 +32,7 @@ public class DataManager : MonoBehaviour
     {
         Load();
         player = GameObject.FindWithTag("Player");
-        if (player!=null && data.mode=="continue")
+        if (player!=null && data.mode=="continue" && data.currentLevel == SceneManager.GetActiveScene().name)
         {
             player.transform.position = data.position;
         }
@@ -38,6 +49,7 @@ public class DataManager : MonoBehaviour
     {
         Load();
         data.mode = "new_game";
+        data.currentLevel = "The Level";
         Save();
         SceneManager.LoadScene("The Level");
     }
