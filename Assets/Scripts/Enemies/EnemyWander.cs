@@ -31,6 +31,7 @@ public class EnemyWander : MonoBehaviour
         if (isPatrol)
         {
             isFlip = !Physics2D.OverlapCircle(groundCheckPos.position, 0.1f, groundLayer);
+            Debug.Log(isFlip);
             Patrol();
         }
     }

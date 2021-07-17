@@ -414,18 +414,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1143646232}
-        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &106482714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,18 +880,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1143646232}
-        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &192258307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1285,6 +1261,7 @@ GameObject:
   - component: {fileID: 425590861}
   - component: {fileID: 425590860}
   - component: {fileID: 425590859}
+  - component: {fileID: 425590864}
   m_Layer: 5
   m_Name: fullOn
   m_TagString: Untagged
@@ -1440,6 +1417,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 425590864}
+        m_TargetAssemblyTypeName: OptionScript, Assembly-CSharp
+        m_MethodName: SetFullscreen
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &425590862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1478,6 +1467,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425590857}
   m_CullTransparentMesh: 1
+--- !u!114 &425590864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425590857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdfe2779d40df845851b4372645eb3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: e80865228b26d8449b68da1f40bf1793, type: 2}
 --- !u!1 &449393447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,7 +2314,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.517, y: 1}
+  m_AnchorMax: {x: 0.8, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2577,6 +2579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231096628}
   - component: {fileID: 1231096629}
+  - component: {fileID: 1231096630}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -2650,13 +2653,38 @@ MonoBehaviour:
   m_FillRect: {fileID: 831070409}
   m_HandleRect: {fileID: 1238326823}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 0.517
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1231096630}
+        m_TargetAssemblyTypeName: OptionScript, Assembly-CSharp
+        m_MethodName: SetVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1231096630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231096627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdfe2779d40df845851b4372645eb3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: e80865228b26d8449b68da1f40bf1793, type: 2}
 --- !u!1 &1238326822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,8 +2717,8 @@ RectTransform:
   m_Father: {fileID: 1622630490}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.517, y: 0}
-  m_AnchorMax: {x: 0.517, y: 1}
+  m_AnchorMin: {x: 0.8, y: 0}
+  m_AnchorMax: {x: 0.8, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4130,6 +4158,7 @@ GameObject:
   - component: {fileID: 1943026538}
   - component: {fileID: 1943026537}
   - component: {fileID: 1943026536}
+  - component: {fileID: 1943026541}
   m_Layer: 5
   m_Name: fullOf
   m_TagString: Untagged
@@ -4285,6 +4314,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1943026541}
+        m_TargetAssemblyTypeName: OptionScript, Assembly-CSharp
+        m_MethodName: SetFullscreen
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1943026539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4323,6 +4364,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943026534}
   m_CullTransparentMesh: 1
+--- !u!114 &1943026541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943026534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdfe2779d40df845851b4372645eb3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: e80865228b26d8449b68da1f40bf1793, type: 2}
 --- !u!1 &1948983428
 GameObject:
   m_ObjectHideFlags: 0

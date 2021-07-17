@@ -60,3 +60,4 @@ crashlytics-build.properties
 
 *.log
 Assets/SaveGame/save_game.json
+*.asset

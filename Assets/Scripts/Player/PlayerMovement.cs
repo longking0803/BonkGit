@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
             soundManager.PlaySound("playerTouchEnemySound");
             Vector2 dir = new Vector2(collision.GetContact(0).point.x - transform.position.x, collision.GetContact(0).point.y - transform.position.y);
             dir.y = 0;
-            dir = -dir.normalized;            
+            dir = -dir.normalized;
             player.velocity=dir*pushBackSpeed;            
         }
     }
