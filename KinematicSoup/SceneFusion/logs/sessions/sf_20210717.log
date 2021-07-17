@@ -106,3 +106,62 @@
 2021-07-17 13:51:12.0911 [DEBUG] Scene Fusion version 1.9.2-2
 2021-07-17 13:51:12.2113 [DEBUG] Play mode: True, sync in play mode: False
 2021-07-17 13:52:46.2142 [DEBUG] Play mode: False
+2021-07-17 14:08:04.1347 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:08:04.2779 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:08:11.1189 [DEBUG] Play mode: False
+2021-07-17 14:20:04.1875 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:20:04.3147 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:20:05.7322 [DEBUG] Play mode: False
+2021-07-17 14:20:32.0336 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:20:32.1592 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:20:42.5315 [DEBUG] Play mode: False
+2021-07-17 14:22:50.2695 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:22:50.4188 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:22:51.6643 [DEBUG] Play mode: False
+2021-07-17 14:25:30.2442 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:25:30.3635 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:25:59.6385 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+UnityEditor.GenericMenu:CatchMenu(Object, String[], Int32)
+
+2021-07-17 14:26:28.4035 [DEBUG] Play mode: False
+2021-07-17 14:26:33.5549 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:26:33.7443 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:28:11.2555 [DEBUG] Play mode: False
+2021-07-17 14:30:26.0352 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:30:26.1688 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:30:27.6374 [DEBUG] Play mode: False
+2021-07-17 14:30:32.5876 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:30:32.7328 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:30:36.6057 [DEBUG] Play mode: False
+2021-07-17 14:34:09.6349 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:34:09.7767 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:34:18.7937 [DEBUG] Play mode: False
+2021-07-17 14:38:18.7723 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:38:18.9094 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:38:42.8148 [DEBUG] Play mode: False
+2021-07-17 14:39:30.5011 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:39:30.6443 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:39:36.0965 [DEBUG] Play mode: False
+2021-07-17 14:54:48.9994 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:54:49.1230 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:54:57.2774 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+UnityEditor.GenericMenu:CatchMenu(Object, String[], Int32)
+
+2021-07-17 14:55:04.7769 [DEBUG] Play mode: False
+2021-07-17 14:55:09.3310 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:55:09.3688 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:55:16.0530 [DEBUG] Play mode: False
+2021-07-17 14:55:31.0421 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:55:31.0870 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:55:52.1472 [DEBUG] Play mode: False
+2021-07-17 14:56:26.2954 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:56:26.3363 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 14:57:07.6267 [DEBUG] Play mode: False
+2021-07-17 14:57:43.6638 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 14:57:43.7017 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:00:10.3644 [DEBUG] Play mode: False
+2021-07-17 15:08:40.2029 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:08:40.2467 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:10:44.3362 [DEBUG] Play mode: False
