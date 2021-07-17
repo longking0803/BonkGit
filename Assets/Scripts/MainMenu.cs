@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField] private GameObject logo,selectGame;
     //[SerializeField] private Transform player;
     //[SerializeField] private DataManager dataManager;
     //public void ContinueGame()
@@ -24,9 +25,9 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Quit");
         Application.Quit();
-    } public void StartGame()
+    } public void StartGameButton()
     {
-        Debug.Log("Load Scene");
-        SceneManager.LoadScene("Minh.Nhut");
+        logo.SetActive(false);
+        selectGame.SetActive(true);
     }
 }

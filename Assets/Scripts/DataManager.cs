@@ -9,11 +9,19 @@ public class DataManager : MonoBehaviour
     //[SerializeField] private Transform player;
     [SerializeField] private string fileName = "save_game.json";
 
+    public void NextLevel()
+    {
+        Load();
+        data.currentLevel = "The Level 2";
+        Save();
+        SceneManager.LoadScene(data.currentLevel);
+    }
+
     private void Start()
     {
         Load();
         player = GameObject.FindWithTag("Player");
-        if (player!=null)
+        if (player!=null && data.mode=="continue")
         {
             player.transform.position = data.position;
         }
@@ -25,9 +33,19 @@ public class DataManager : MonoBehaviour
     //    player = GameObject.FindWithTag("Player");
     //    player.transform.position = data.position;
     //}
+
+    public void NewGame()
+    {
+        Load();
+        data.mode = "new_game";
+        Save();
+        SceneManager.LoadScene("The Level");
+    }
     public void ContinueGame()
     {
         Load();
+        data.mode = "continue";
+        Save();
         //SceneManager.LoadScene("The Level");
         SceneManager.LoadScene(data.currentLevel);
         //PlacePlayerAfterLoad();
@@ -40,8 +58,9 @@ public class DataManager : MonoBehaviour
         //data = new PlayerData();
         //Debug.Log(data);
         data.currentLevel = SceneManager.GetActiveScene().name;
+        data.mode = "continue";
         Save();
-        Debug.Log("ok");
+        //Debug.Log("ok");
         SceneManager.LoadScene("TheBonkMenu");
     }
     //private void Awake()
