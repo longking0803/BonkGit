@@ -4906,7 +4906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2527536725713342871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 12.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2527536726731311761}
@@ -6255,7 +6255,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 0.4811321, g: 0, b: 0.1345441, a: 0}
-        key1: {r: 0.6792453, g: 0.65478075, b: 0.11213954, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 1}
@@ -8761,7 +8761,7 @@ ParticleSystem:
       properties: 0
       emitProbability: 1
   LightsModule:
-    enabled: 1
+    enabled: 0
     ratio: 1
     light: {fileID: 760876087975970896, guid: d0a91e58daf3c72419dfbf5917a08a08, type: 3}
     randomDistribution: 1
@@ -9799,9 +9799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9efc2c86b44c34eb46f9efd16be354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VFX_Explode: {fileID: 0}
   lifeTime: 0.6
-  isExplode: 0
 --- !u!1 &2527536725785378931
 GameObject:
   m_ObjectHideFlags: 0
@@ -10023,8 +10021,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0.07075471, b: 0.07075471, a: 1}
-      maxColor: {r: 0.3965354, g: 0.11774653, b: 0.9245283, a: 1}
+      minColor: {r: 0.4433962, g: 0.08993414, b: 0.09933467, a: 1}
+      maxColor: {r: 0.83921576, g: 0.10196079, b: 0.121568635, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -11173,7 +11171,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 0.08018869, b: 0.08018869, a: 0}
-        key1: {r: 0, g: 0.8601935, b: 0.9339623, a: 0.7764706}
+        key1: {r: 0.6226415, g: 0.47872907, b: 0.5129084, a: 0.7764706}
         key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -14895,7 +14893,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.10679956, g: 0.9056604, b: 0.3417817, a: 1}
+      maxColor: {r: 0.9686275, g: 0.70980394, b: 0.11764707, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -16052,8 +16050,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.09158063, g: 0.9245283, b: 0.4307578, a: 0}
-        key1: {r: 0.76190275, g: 0.19450872, b: 0.8773585, a: 1}
+        key0: {r: 0.9686275, g: 0.70980394, b: 0.11764707, a: 0}
+        key1: {r: 0.83921576, g: 0.10196079, b: 0.121568635, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -19775,7 +19773,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.10679956, g: 0.9056604, b: 0.3417817, a: 1}
+      maxColor: {r: 0.83921576, g: 0.10196079, b: 0.121568635, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -20932,8 +20930,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.09158063, g: 0.9245283, b: 0.4307578, a: 0}
-        key1: {r: 0.76190275, g: 0.19450872, b: 0.8773585, a: 1}
+        key0: {r: 0.83921576, g: 0.10196079, b: 0.121568635, a: 0}
+        key1: {r: 0.4433962, g: 0.2949003, b: 0.29884964, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -20941,7 +20939,7 @@ ParticleSystem:
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 65535
+        ctime1: 64764
         ctime2: 0
         ctime3: 0
         ctime4: 0

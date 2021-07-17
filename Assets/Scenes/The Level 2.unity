@@ -12469,6 +12469,7 @@ MonoBehaviour:
   bonkerZone: {fileID: 0}
   playerAnim: {fileID: 0}
   soundManager: {fileID: 0}
+  hitVFXPrefab: {fileID: 0}
   moveSpeed: 10
   jumpSpeed: 0
   pushBackSpeed: 0
@@ -13773,11 +13774,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165814738015420634, guid: 73509c533b16fe948b9d7da94f5b35fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.74
+      value: -9.29
       objectReference: {fileID: 0}
     - target: {fileID: 5165814738015420634, guid: 73509c533b16fe948b9d7da94f5b35fd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 115.3
+      value: -1.89
       objectReference: {fileID: 0}
     - target: {fileID: 5165814738015420634, guid: 73509c533b16fe948b9d7da94f5b35fd, type: 3}
       propertyPath: m_LocalPosition.z
