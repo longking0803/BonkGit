@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     //[SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator playerAnim;
     [SerializeField] private SoundManager soundManager;
+    [SerializeField] private Transform hitVFXPrefab;
+
 
     [Header("Movement Config")]
     [SerializeField] private float moveSpeed;
@@ -149,6 +151,7 @@ public class PlayerMovement : MonoBehaviour
         {
             soundManager.PlaySound("playerAttackHitSound");
             enemy.GetComponent<EnemyCotroller>().hit();
+            Transform obj = Instantiate(hitVFXPrefab, transform.position + hitboxOffset, Quaternion.identity);
         }
     }
         

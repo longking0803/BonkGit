@@ -1681,6 +1681,7 @@ MonoBehaviour:
   bonkerZone: {fileID: 0}
   playerAnim: {fileID: 0}
   soundManager: {fileID: 0}
+  hitVFXPrefab: {fileID: 0}
   moveSpeed: 10
   jumpSpeed: 0
   pushBackSpeed: 0
@@ -2159,6 +2160,10 @@ PrefabInstance:
       propertyPath: attackRadius
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5165814738015420644, guid: 73509c533b16fe948b9d7da94f5b35fd, type: 3}
+      propertyPath: hitVFXPrefab
+      value: 
+      objectReference: {fileID: 2527536725718882839, guid: 0c7fa672fd38125479b78e2fff9e5fb5, type: 3}
     - target: {fileID: 5165814738015420644, guid: 73509c533b16fe948b9d7da94f5b35fd, type: 3}
       propertyPath: soundManager
       value: 
