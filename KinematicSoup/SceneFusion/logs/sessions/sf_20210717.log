@@ -165,3 +165,98 @@ UnityEditor.GenericMenu:CatchMenu(Object, String[], Int32)
 2021-07-17 15:08:40.2029 [DEBUG] Scene Fusion version 1.9.2-2
 2021-07-17 15:08:40.2467 [DEBUG] Play mode: True, sync in play mode: False
 2021-07-17 15:10:44.3362 [DEBUG] Play mode: False
+2021-07-17 15:14:39.3076 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:14:39.3376 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:14:52.1093 [DEBUG] Play mode: False
+2021-07-17 15:25:44.0658 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:25:44.1127 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:25:50.0559 [DEBUG] Play mode: False
+2021-07-17 15:26:49.5694 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:26:49.6178 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:30:02.1374 [DEBUG] Play mode: False
+2021-07-17 15:35:52.0998 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:35:58.6855 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+
+2021-07-17 15:36:01.4401 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:36:01.4805 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:36:04.1193 [DEBUG] Play mode: False
+2021-07-17 15:45:34.5930 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 15:45:34.6424 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 15:45:45.5688 [DEBUG] Play mode: False
+2021-07-17 15:51:10.5301 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:03:52.8364 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+
+2021-07-17 16:04:00.0316 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:06:08.9171 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+Unity.Cloud.Collaborate.UserInterface.CollaborateWindow.OnDisable () (at Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs:86)
+
+2021-07-17 16:06:12.2994 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:06:12.3373 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:06:24.6218 [DEBUG] Play mode: False
+2021-07-17 16:06:42.7025 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:06:42.8267 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:07:33.2685 [DEBUG] Play mode: False
+2021-07-17 16:09:53.0043 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:09:53.0909 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:10:04.4540 [DEBUG] Play mode: False
+2021-07-17 16:30:07.0707 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:30:07.2199 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:30:17.4911 [DEBUG] Play mode: False
+2021-07-17 16:36:32.5734 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:37:02.2439 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:37:02.3820 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:37:28.2928 [DEBUG] Play mode: False
+2021-07-17 16:40:23.5802 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:40:23.7332 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:40:27.1928 [DEBUG] Play mode: False
+2021-07-17 16:41:23.9508 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:41:24.1097 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:41:38.3433 [DEBUG] Play mode: False
+2021-07-17 16:41:44.8565 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:41:45.0853 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:44:18.9060 [DEBUG] Play mode: False
+2021-07-17 16:44:46.4211 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:44:46.5720 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:45:04.1299 [DEBUG] Play mode: False
+2021-07-17 16:45:10.8804 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:45:10.9865 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:47:43.9715 [DEBUG] Play mode: False
+2021-07-17 16:47:59.7521 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:47:59.8658 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:48:02.6608 [DEBUG] Play mode: False
+2021-07-17 16:48:20.1332 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:48:29.1517 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:48:29.2699 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:48:33.7124 [DEBUG] Play mode: False
+2021-07-17 16:48:46.3425 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:48:46.4582 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:48:52.7971 [DEBUG] Play mode: False
+2021-07-17 16:49:20.4757 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:49:20.5883 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:49:24.4391 [DEBUG] Play mode: False
+2021-07-17 16:49:45.4511 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:49:45.5653 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:49:50.8647 [DEBUG] Play mode: False
+2021-07-17 16:50:08.0555 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:50:08.1800 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:51:17.5656 [DEBUG] Play mode: False
+2021-07-17 16:51:23.5774 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:51:23.7340 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:51:26.3418 [DEBUG] Play mode: False
+2021-07-17 16:51:34.9807 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 16:51:35.0986 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 16:51:40.0310 [DEBUG] Play mode: False
+2021-07-17 17:01:03.5211 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 17:01:03.6776 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 17:01:08.3840 [DEBUG] Play mode: False
+2021-07-17 17:03:07.8916 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 17:03:08.0511 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 17:03:17.1122 [DEBUG] Play mode: False
+2021-07-17 17:04:09.7477 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 17:04:09.8408 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 17:04:15.1877 [DEBUG] Play mode: False
+2021-07-17 17:05:08.8229 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-17 17:05:08.9816 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-17 17:05:24.2091 [DEBUG] Play mode: False
