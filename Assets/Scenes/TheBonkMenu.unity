@@ -1301,7 +1301,7 @@ RectTransform:
   m_GameObject: {fileID: 425590857}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.3204005}
+  m_LocalScale: {x: 3.121094, y: 3.121094, z: 0.3204005}
   m_Children:
   - {fileID: 771102012}
   m_Father: {fileID: 1948983432}
@@ -1310,7 +1310,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -1678, y: -3726}
-  m_SizeDelta: {x: 963.9396, y: 355.09863}
+  m_SizeDelta: {x: 304, y: 162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &425590859
 MonoBehaviour:
@@ -2408,7 +2408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1129232766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2982,7 +2982,7 @@ GameObject:
   - component: {fileID: 1446222571}
   - component: {fileID: 1446222570}
   m_Layer: 5
-  m_Name: Play text
+  m_Name: ====
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4146,7 +4146,7 @@ RectTransform:
   m_GameObject: {fileID: 1943026534}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.3204005}
+  m_LocalScale: {x: 3.121094, y: 3.121094, z: 0.3204005}
   m_Children:
   - {fileID: 135829393}
   m_Father: {fileID: 1948983432}
@@ -4412,7 +4412,7 @@ RectTransform:
   m_GameObject: {fileID: 1948983428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.121094, y: 3.121094, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 281155706}
   - {fileID: 425590858}
