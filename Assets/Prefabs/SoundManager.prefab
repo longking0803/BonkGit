@@ -143,4 +143,4 @@ MonoBehaviour:
   audioSource: {fileID: 6656878384106115699}
   playerAttackHitSound: {fileID: 8300000, guid: b268ba989001ef54bbc5db4edb5a3f49, type: 3}
   mainThemeSound: {fileID: 8300000, guid: cbfe60ec3990e084d8e0ed247166ce00, type: 3}
-  playerTouchEnemySound: {fileID: 8300000, guid: a85d031f86d67394abfb521ebe630a09, type: 3}
+  playerTouchEnemySound: {fileID: 8300000, guid: 45957b6b6d1856f44b3bfd446ab4d168, type: 3}

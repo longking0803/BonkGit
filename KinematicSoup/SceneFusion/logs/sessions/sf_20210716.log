@@ -55,3 +55,324 @@ PlayerMovement.OnCollisionEnter2D (UnityEngine.Collision2D collision) (at Assets
 2021-07-16 09:59:33.7567 [DEBUG] Scene Fusion version 1.9.2-2
 2021-07-16 10:04:36.1195 [DEBUG] Scene Fusion version 1.9.2-2
 2021-07-16 10:26:32.3768 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:21:46.7440 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:21:46.7938 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:22:04.1688 [DEBUG] Play mode: False
+2021-07-16 21:35:46.4510 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:35:46.5174 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:35:56.9183 [DEBUG] Play mode: False
+2021-07-16 21:36:24.4935 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:36:24.5696 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:36:34.9520 [DEBUG] Play mode: False
+2021-07-16 21:38:44.7244 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:39:38.9559 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:52:07.8353 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:52:54.1155 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:52:54.1653 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:52:58.8401 [DEBUG] Play mode: False
+2021-07-16 21:53:06.6566 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:53:06.7024 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:53:15.5657 [DEBUG] Play mode: False
+2021-07-16 21:53:24.0608 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:53:24.1048 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:53:38.4056 [DEBUG] Play mode: False
+2021-07-16 21:56:20.1810 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:56:33.2005 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:56:33.2454 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:56:45.4192 [DEBUG] Play mode: False
+2021-07-16 21:58:04.9974 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 21:58:05.0364 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 21:58:11.9827 [DEBUG] Play mode: False
+2021-07-16 22:00:28.2508 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:00:59.1434 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:00:59.2166 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:01:02.4979 [DEBUG] Play mode: False
+2021-07-16 22:01:05.9554 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:01:06.0286 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:01:06.6243 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.ContinueGame () (at Assets/Scripts/MainMenu.cs:11)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:01:08.4671 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.ContinueGame () (at Assets/Scripts/MainMenu.cs:11)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:01:08.8626 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.ContinueGame () (at Assets/Scripts/MainMenu.cs:11)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:01:09.0638 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.ContinueGame () (at Assets/Scripts/MainMenu.cs:11)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:01:09.2728 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.ContinueGame () (at Assets/Scripts/MainMenu.cs:11)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:01:09.4485 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.ContinueGame () (at Assets/Scripts/MainMenu.cs:11)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:01:09.6175 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.ContinueGame () (at Assets/Scripts/MainMenu.cs:11)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:01:16.2435 [DEBUG] Play mode: False
+2021-07-16 22:04:47.7825 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:05:02.9398 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:05:02.9857 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:05:04.7220 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:05:07.0945 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:05:07.2840 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:05:07.4441 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:05:07.6072 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:05:07.7918 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:05:09.4422 [DEBUG] Play mode: False
+2021-07-16 22:05:56.1995 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:05:59.4368 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:05:59.4808 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:06:00.5433 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:04.6468 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:06.0447 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:06.6209 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:06.8094 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:06.9900 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:07.1766 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:07.3768 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:06:20.3245 [DEBUG] Play mode: False
+2021-07-16 22:08:28.1976 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:08:28.2523 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:08:30.8646 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:08:31.5980 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:08:31.7737 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:08:33.5325 [DEBUG] Play mode: False
+2021-07-16 22:10:18.7811 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:10:22.0047 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:10:22.0486 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:10:31.7703 [DEBUG] Play mode: False
+2021-07-16 22:11:02.0682 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:11:02.1150 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:12:28.2801 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:12:35.3397 [DEBUG] Play mode: False
+2021-07-16 22:12:38.1580 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:12:38.2049 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:12:39.7732 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:17)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:12:45.4256 [DEBUG] Play mode: False
+2021-07-16 22:14:19.0198 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:14:22.2610 [DEBUG] Scene Fusion version 1.9.2-2
+2021-07-16 22:14:22.3060 [DEBUG] Play mode: True, sync in play mode: False
+2021-07-16 22:14:24.1097 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+MainMenu.SaveGame () (at Assets/Scripts/MainMenu.cs:18)
+UnityEngine.Events.InvokableCall.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <127e81e1cb3441cc97d26b1910daae77>:0)
+UnityEngine.UI.Button.Press () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:262)
+UnityEngine.EventSystems.EventSystem:Update() (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:385)
+
+2021-07-16 22:14:27.6219 [DEBUG] Play mode: False

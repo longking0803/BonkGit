@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerData 
 {
-    public Vector2 position= new Vector2(0,0);
+    public Vector3 position= new Vector3(0,0,0);
 
     public string currentLevel = "";
 }
