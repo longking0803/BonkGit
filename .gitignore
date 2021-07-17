@@ -59,5 +59,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 *.log
-*.log
 Assets/SaveGame/save_game.json
