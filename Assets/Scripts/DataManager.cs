@@ -41,6 +41,7 @@ public class DataManager : MonoBehaviour
         //Debug.Log(data);
         data.currentLevel = SceneManager.GetActiveScene().name;
         Save();
+        Debug.Log("ok");
         SceneManager.LoadScene("TheBonkMenu");
     }
     //private void Awake()
