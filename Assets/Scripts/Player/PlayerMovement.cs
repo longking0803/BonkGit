@@ -31,8 +31,8 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemies")){
             soundManager.PlaySound("playerTouchEnemySound");
             Vector2 dir = new Vector2(collision.GetContact(0).point.x - transform.position.x, collision.GetContact(0).point.y - transform.position.y);
-            dir = -dir.normalized;
             dir.y = 0;
+            dir = -dir.normalized;            
             player.velocity=dir*pushBackSpeed;            
         }
     }
@@ -72,6 +72,10 @@ public class PlayerMovement : MonoBehaviour
                 hitboxOffset = new Vector3(-1f, 0, 0);
                 transform.rotation = Quaternion.Euler(0, 180, 0);
             }
+        }
+        else if (Mathf.Abs(player.velocity.x) < regainControlSpeed)
+        {
+            player.velocity = new Vector2(0, player.velocity.y);
         }
     }
 

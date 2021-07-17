@@ -43,12 +43,20 @@ public class DataManager : MonoBehaviour
     }
     public void ContinueGame()
     {
-        Load();
-        data.mode = "continue";
-        Save();
-        //SceneManager.LoadScene("The Level");
-        SceneManager.LoadScene(data.currentLevel);
-        //PlacePlayerAfterLoad();
+        if (Load())
+        {
+            data.mode = "continue";
+            Save();
+            //SceneManager.LoadScene("The Level");
+            SceneManager.LoadScene(data.currentLevel);
+            //PlacePlayerAfterLoad();
+        }
+        else
+        {
+            data = new PlayerData();
+            Save();
+            NewGame();
+        }
     }
     public void SaveGame()
     {
@@ -71,10 +79,14 @@ public class DataManager : MonoBehaviour
         string json = JsonUtility.ToJson(data);
         WriteToFile(fileName, json); 
     }
-    public void Load() {        
+    public bool Load() {        
         data = new PlayerData();
         string json = ReadFromFile(fileName);
+        if (json == "") {
+            return false;
+        }
         JsonUtility.FromJsonOverwrite(json, data);
+        return true;
         //Debug.Log(data);
     }
     private void WriteToFile(string fileName, string json)
